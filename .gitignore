@@ -1,0 +1,28 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local SDK and Gradle state
+local.properties
+.gradle/
+.kotlin/
+
+# Build outputs
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.hprof
+
+# Local experiment artifacts
+/panic/
+/fix1b
+/*.log
+/glpstore_head.txt
+/app/src/main/cpp/su/su_aarch64_pie
+
+# OS metadata
+.DS_Store
+Thumbs.db
